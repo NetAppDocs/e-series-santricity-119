@@ -1,0 +1,12 @@
+---
+permalink: sm-mirroring/index.html
+sidebar: sidebar
+keywords:
+summary: ''
+---
+= SANtricity System Manager 11.9
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage Asynchronous Mirroring and Synchronous Mirroring through the SANtricity System Manager. 
