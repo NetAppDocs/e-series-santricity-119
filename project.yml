@@ -1,12 +1,1114 @@
+---
 settings:
-  name: "Product Name"
+  name: "SANtricity software"
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
-
-sidebar: 
+  rss_page: "whats-new.html"
+  versions:
+    - version-number: "11.9"
+      url: /e-series-santricity-119
+    - version-number: "12.0"
+      url: /e-series-santricity
+    - version-number: "11.8"
+      url: /e-series-santricity-118
+sidebar:
   entries:
+  - title: SANtricity software 11.9 docs
+    url: "/index.html"
+  - title: Release notes
+    entries:
+      - title: What's new
+        url: /whats-new.html
+      - title: Release notes
+        url: /known-issues.html
+  - title: Get started
+    entries:
+        - title: Overview
+          url: "/san-getstarted/santricity-overview.html"
+        - title: Supported browsers and OSs
+          url: "/san-getstarted/supported-browsers-os.html"
+        - title: SANtricity System Manager setup
+          entries:
+          - title: Access SANtricity System Manager
+            url: "/san-getstarted/access-sam.html"
+          - title: Setup wizard overview
+            url: "/sm-interface/setup-wizard-overview.html"
+          - title: Storage system setup FAQ
+            url: "/sm-interface/faq-storage-system-setup.html"
+        - title: SANtricity Unified Manager setup
+          entries:
+          - title: Install SANtricity Unified Manager
+            url: "/san-getstarted/install-um.html"
+          - title: Access SANtricity Unified Manager
+            url: "/san-getstarted/login-um.html"
+  - title: SANtricity System Manager
+    url: "/system-manager/index.html"
+    entries:
+      - title: Main interface
+        entries:
+        - title: SANtricity System Manager interface overview
+          url: "/sm-interface/overview-interface-sam.html"
+        - title: View performance data
+          entries:
+          - title: Overview
+            url: "/sm-storage/overview-performance.html"
+          - title: Performance graphs and guidelines
+            url: "/sm-storage/performance-graphs-guidelines.html"
+          - title: Performance terminology
+            url: "/sm-storage/performance-terminology.html"
+          - title: View graphical performance data
+            url: "/sm-storage/view-performance-data-graphical.html"
+          - title: View and save tabular performance data
+            url: "/sm-storage/view-and-save-performance-data-tabular.html"
+          - title: Interpret performance data
+            url: "/sm-storage/interpret-performance-data.html"
+        - title: View storage hierarchy
+          url: "/sm-interface/view-storage-hierarchy.html"
+        - title: Manage interface settings
+          entries:
+            - title: Manage password protection
+              url: "/sm-interface/administrator-password-protection.html"
+            - title: Set default capacity values
+              url: "/sm-interface/set-default-units-for-capacity-values.html"
+            - title: Set defaults for performance graphs
+              url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+            - title: Configure login banner
+              url: "/sm-settings/configure-login-banner.html"
+            - title: Manage session timeouts
+              url: "/sm-settings/manage-session-timeouts-sam.html"
+        - title: Manage notifications
+          entries:
+            - title: Problem notifications overview
+              url: "/sm-interface/problem-notification.html"
+            - title: View and act on operations in progress
+              url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+            - title: Recover from problems using Recovery Guru
+              url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+        - title: Management interface FAQ
+          url: "/sm-interface/faq-management-interface.html"
+      - title: Pools and volume groups
+        entries:
+        - title: Overview
+          url: "/sm-storage/overview-pools-volume-groups.html"
+        - title: Concepts
+          entries:
+          - title: How pools and volume groups work
+            url: "/sm-storage/how-pools-and-volume-groups-work.html"
+          - title: Terms
+            url: "/sm-storage/capacity-terminology.html"
+          - title: Selecting a pool or volume group
+            url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
+          - title: Automatic versus manual pool creation
+            url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+        - title: Configure storage
+          entries:
+          - title: Create pool automatically
+            url: "/sm-storage/create-pool-automatically.html"
+          - title: Create pool manually
+            url: "/sm-storage/create-pool-manually.html"
+          - title: Create volume group
+            url: "/sm-storage/create-volume-group.html"
+          - title: Add capacity to pool or volume group
+            url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
+        - title: Manage storage
+          entries:
+          - title: Check volume redundancy
+            url: "/sm-storage/check-volume-redundancy.html"
+          - title: Delete pool or volume group
+            url: "/sm-storage/delete-pool-or-volume-group.html"
+          - title: Consolidate free capacity for a volume group
+            url: "/sm-storage/consolidate-volume-group-free-capacity.html"
+          - title: Export/Import volume groups
+            url: "/sm-storage/export-import-volume-groups.html"
+          - title: Locate drive used for storage
+            url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
+          - title: Remove capacity
+            url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
+        - title: Modify pool and group settings
+          entries:
+          - title: Change configuration settings for a pool
+            url: "/sm-storage/change-configuration-settings-for-a-pool.html"
+          - title: Change configuration settings for a volume group
+            url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
+          - title: Enable or disable resource provisioning (existing volumes)
+            url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
+          - title: Enable or disable resource provisioning (new volumes)
+            url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
+          - title: Enable security
+            url: "/sm-storage/enable-security.html"
+        - title: Manage SSD cache
+          entries:
+          - title: How SSD Cache works
+            url: "/sm-storage/how-ssd-cache-works.html"
+          - title: SSD Cache restrictions
+            url: "/sm-storage/ssd-cache-restrictions.html"
+          - title: Create SSD Cache
+            url: "/sm-storage/create-ssd-cache.html"
+          - title: Change SSD Cache settings
+            url: "/sm-storage/change-ssd-cache-settings.html"
+          - title: View SSD Cache statistics
+            url: "/sm-storage/view-ssd-cache-statistics.html"
+        - title: Manage reserved capacity
+          entries:
+          - title: How reserved capacity works
+            url: "/sm-storage/how-reserved-capacity-works.html"
+          - title: Increase capacity
+            url: "/sm-storage/increase-reserved-capacity.html"
+          - title: Decrease capacity
+            url: "/sm-storage/decrease-reserved-capacity.html"
+          - title: Change capacity for snapshot group
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html"
+          - title: Change capacity for snapshot volume
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html"
+          - title: Change capacity consistency group member
+              volume
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html"
+          - title: Change capacity settings for mirrored pair volume
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+          - title: Cancel pending snapshot image
+            url: "/sm-storage/cancel-pending-snapshot-image.html"
+          - title: Delete snapshot group
+            url: "/sm-storage/delete-snapshot-group.html"
+        - title: Pools and volume groups FAQ
+          url: "/sm-storage/faq-pools-volume-groups.html" 
+      - title: Volumes and workloads
+        entries:
+        - title: Overview
+          url: "/sm-storage/overview-volumes.html"
+        - title: Concepts
+          entries:
+          - title: How volumes work
+            url: "/sm-storage/how-volumes-work.html"
+          - title: How workloads work
+            url: "/sm-storage/how-workloads-work.html"
+          - title: Terms
+            url: "/sm-storage/volume-terminology.html"
+          - title: Workflow for creating volumes
+            url: "/sm-storage/workflow-for-creating-volumes.html"
+          - title: Data integrity and data security
+            url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
+          - title: SSD Cache and volumes
+            url: "/sm-storage/ssd-cache-and-volumes.html"
+          - title: Actions you can perform on volumes
+            url: "/sm-storage/actions-you-can-perform-on-volumes.html"
+          - title: Capacity for volumes
+            url: "/sm-storage/capacity-for-volumes.html"
+          - title: Thin volume monitoring
+            url: "/sm-storage/thin-volume-monitoring.html"
+          - title: Thick volumes versus thin volumes
+            url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
+        - title: Configure storage
+          entries:
+          - title: Create workloads
+            url: "/sm-storage/create-workloads.html"
+          - title: Create volumes
+            url: "/sm-storage/create-volumes.html"
+          - title: Add to workload
+            url: "/sm-storage/add-to-workload.html"
+        - title: Manage volumes
+          entries:
+          - title: Increase capacity
+            url: "/sm-storage/increase-capacity-of-a-volume.html"
+          - title: Initialize volumes
+            url: "/sm-storage/initialize-volumes.html"
+          - title: Redistribute volumes
+            url: "/sm-storage/redistribute-volumes.html"
+          - title: Change controller ownership
+            url: "/sm-storage/change-controller-ownership-of-a-volume.html"
+          - title: Delete volume
+            url: "/sm-storage/delete-volume.html"
+          - title: Change allocated capacity for thin volumes
+            url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+        - title: Manage settings
+          entries:
+          - title: Change volume settings
+            url: "/sm-storage/change-settings-for-a-volume.html"
+          - title: Change workload settings
+            url: "/sm-storage/change-workload-settings.html"
+          - title: Change cache settings
+            url: "/sm-storage/change-cache-settings.html"
+          - title: Change media scan settings
+            url: "/sm-storage/change-media-scan-settings.html"
+        - title: Use copy services
+          entries:
+            - title: Copy Volume function
+              url: "/sm-storage/copy-volume-function.html"
+            - title: Types of operations
+              url: "/sm-storage/types-of-copy-volume-operations.html"
+            - title: Copy volumes
+              url: "/sm-storage/copy-volume.html"
+            - title: Manage operations
+              url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
+        - title: Volumes and workloads FAQ
+          url: "/sm-storage/faq-volumes-workloads.html"
+      - title: Hosts and host clusters
+        entries:
+        - title: Overview
+          url: "/sm-storage/overview-hosts.html"
+        - title: Concepts
+          entries:
+          - title: Terms
+            url: "/sm-storage/host-terminology.html"
+          - title: Workflow for host creation and volume assignment
+            url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
+          - title: Manual host creation
+            url: "/sm-storage/manual-host-creation.html"
+          - title: How volumes are assigned
+            url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
+          - title: Access volumes
+            url: "/sm-storage/access-volumes.html"
+          - title: Maximum number of LUNs
+            url: "/sm-storage/maximum-number-of-luns.html"
+          - title: Default host operating system type
+            url: "/sm-settings/default-host-operating-system-type.html"
+        - title: Configure host access
+          entries:
+          - title: Create host manually
+            url: "/sm-storage/create-host-manually.html"
+          - title: Create host cluster
+            url: "/sm-storage/create-host-cluster.html"
+          - title: Assign volumes to hosts
+            url: "/sm-storage/assign-volumes.html"
+        - title: Manage hosts and clusters
+          entries:
+          - title: Change default host type
+            url: "/sm-settings/change-default-host-type.html"
+          - title: Unassign volumes
+            url: "/sm-storage/unassign-volumes.html"
+          - title: Delete host or host cluster
+            url: "/sm-storage/delete-host-or-host-cluster.html"
+          - title: Set host connectivity reporting
+            url: "/sm-settings/set-host-connectivity-reporting.html"
+        - title: Manage settings
+          entries:
+          - title: Change settings for host
+            url: "/sm-storage/change-the-settings-for-a-host.html"
+          - title: Change settings for host cluster
+            url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
+          - title: Change host port identifiers for host
+            url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+        - title: Host systems and host clusters FAQ
+          url: "/sm-storage/faq-systems-clusters.html"
+      - title: Snapshots
+        entries:
+        - title: Overview
+          url: "/sm-storage/overview-snapshots.html"
+        - title: Concepts
+          entries:
+          - title: How snapshot storage works
+            url: "/sm-storage/how-snapshot-storage-works.html"
+          - title: Terms
+            url: "/sm-storage/snapshot-terminology.html"
+          - title: Workflow for creating snapshot images and volumes
+            url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+          - title: Requirements
+            url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
+          - title: Base volumes, reserved capacity, and snapshot groups
+            url: "/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html"
+          - title: Snapshot schedules and snapshot consistency groups
+            url: "/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html"
+          - title: Snapshot volumes
+            url: "/sm-storage/snapshot-volumes.html"
+          - title: Snapshot rollback
+            url: "/sm-storage/snapshot-rollback.html"
+        - title: Create snapshots and snapshot objects
+          entries:
+          - title: Create snapshot image
+            url: "/sm-storage/create-snapshot-image.html"
+          - title: Schedule snapshot images
+            url: "/sm-storage/schedule-snapshot-images.html"
+          - title: Create snapshot consistency group
+            url: "/sm-storage/create-snapshot-consistency-group.html"
+          - title: Create snapshot volumes
+            url: "/sm-storage/create-snapshot-volume.html"
+        - title: Manage snapshot schedules
+          entries:
+          - title: Change settings
+            url: "/sm-storage/change-the-settings-for-a-snapshot-schedule.html"
+          - title: Activate and suspend
+            url: "/sm-storage/activate-or-suspend-snapshot-schedule.html"
+          - title: Delete snapshot schedule
+            url: "/sm-storage/delete-snapshot-schedule.html"
+        - title: Manage snapshot images
+          entries:
+          - title: View snapshot image settings
+            url: "/sm-storage/view-snapshot-image-settings.html"
+          - title: Start snapshot image rollback for base volume
+            url: "/sm-storage/start-snapshot-image-rollback-for-base-volume.html"
+          - title: Start snapshot image rollback for snapshot consistency group member
+              volumes
+            url: "/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html"
+          - title: Resume snapshot image rollback
+            url: "/sm-storage/resume-snapshot-image-rollback.html"
+          - title: Cancel snapshot image rollback
+            url: "/sm-storage/cancel-snapshot-image-rollback.html"
+          - title: Delete snapshot image
+            url: "/sm-storage/delete-snapshot-image.html"
+        - title: Manage snapshot consistency groups
+          entries:
+          - title: Add member volume
+            url: "/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html"
+          - title: Remove member volume
+            url: "/sm-storage/remove-member-volumes-from-a-consistency-group.html"
+          - title: Change settings
+            url: "/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html"
+          - title: Delete snapshot consistency group
+            url: "/sm-storage/delete-snapshot-consistency-group.html"
+        - title: Manage snapshot volumes
+          entries:
+          - title: Convert snapshot volume to read-write mode
+            url: "/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html"
+          - title: Change volume settings for snapshot volume
+            url: "/sm-storage/change-the-settings-for-a-snapshot-volume.html"
+          - title: Copy snapshot volume
+            url: "/sm-storage/copy-snapshot-volume.html"
+          - title: Re-create snapshot volume
+            url: "/sm-storage/re-create-snapshot-volume.html"
+          - title: Disable snapshot volume
+            url: "/sm-storage/disable-snapshot-volume.html"
+          - title: Delete snapshot volume
+            url: "/sm-storage/delete-snapshot-volume.html"
+        - title: Snapshots FAQ
+          url: "/sm-storage/faq-snapshots.html"
+      - title: Mirroring
+        entries:
+        - title: Overview
+          entries:
+          - title: Async mirroring
+            url: "/sm-mirroring/overview-mirroring-async.html"
+          - title: Sync mirroring
+            url: "/sm-mirroring/overview-mirroring-sync.html"
+        - title: Async concepts
+          entries:
+          - title: How asynchronous mirroring works
+            url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+          - title: Terms
+            url: "/sm-mirroring/asynchronous-terminology.html"
+          - title: Workflow
+            url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+          - title: Requirements
+            url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+          - title: Asynchronous mirror status
+            url: "/sm-mirroring/asynchronous-mirror-status.html"
+          - title: Volume ownership
+            url: "/sm-mirroring/volume-ownership-async.html"
+          - title: Role change of a mirror consistency group
+            url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+        - title: Sync concepts
+          entries:
+          - title: How synchronous mirroring works
+            url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+          - title: Terms
+            url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+          - title: Workflow
+            url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+          - title: Requirements
+            url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+          - title: Synchronous mirroring status
+            url: "/sm-mirroring/synchronous-mirroring-status.html"
+          - title: Volume ownership
+            url: "/sm-mirroring/volume-ownership-sync.html"
+          - title: Role change between volumes in a mirrored pair
+            url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+        - title: Manage async mirror consistency groups
+          entries:
+          - title: Test communication
+            url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+          - title: Suspend or resume synchronization
+            url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+          - title: Change sync settings
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+          - title: Re-sync mirror consistency group
+            url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+          - title: View unsync data amount
+            url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+          - title: Update remote IP address
+            url: "/sm-mirroring/update-remote-ip-address.html"
+          - title: Change mirror consistency group role
+            url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+          - title: Delete mirror consistency group
+            url: "/sm-mirroring/delete-mirror-consistency-group.html"
+        - title: Manage async mirrored pairs
+          entries:
+          - title: Remove async mirror relationship
+            url: "/sm-mirroring/remove-mirrored-pair.html"
+          - title: Increase reserved capacity
+            url: "/sm-mirroring/increase-reserved-capacity.html"
+          - title: Change reserved capacity for mirrored pair volume
+            url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+          - title: Complete mirrored pair for primary volumes created on legacy system
+            url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+        - title: Manage sync mirrored pairs
+          entries:
+          - title: Test communication
+            url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+          - title: Suspend and resume synchronization
+            url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+          - title: Change role between volumes
+            url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+          - title: Change sync settings
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+          - title: Remove mirror relationship
+            url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+        - title: Deactivate mirroring
+          entries:
+          - title: Deactivate async mirroring
+            url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+          - title: Deactivate sync mirroring
+            url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+        - title: Async mirroring FAQ
+          url: "/sm-mirroring/faq-async-mirroring.html"
+        - title: Sync mirroring FAQ
+          url: "/sm-mirroring/faq-sync-mirroring.html"
+      - title: Remote storage
+        entries:
+          - title: Overview
+            url: "/sm-storage/overview-remote-storage.html"
+          - title: Concepts
+            entries:
+            - title: How Remote Storage works
+              url: "/sm-storage/rtv-how-remote-storage-works.html"
+            - title: Terms
+              url: "/sm-storage/rtv-terminology.html"
+            - title: Feature requirements
+              url: "/sm-storage/rtv-remote-storage-requirements.html"
+            - title: Volume requirements
+              url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
+          - title: Manage remote storage
+            entries:
+            - title: Import remote storage
+              url: "/sm-storage/rtv-import-remote-storage.html"
+            - title: Manage progress of remote storage imports
+              url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
+            - title: Modify connection settings for remote storage
+              url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
+            - title: Remove remote storage object
+              url: "/sm-storage/rtv-remove-remote-storage.html"
+          - title: Remote storage FAQ
+            url: "/sm-storage/faq-remote-storage.html"
+      - title: Hardware components
+        entries:
+        - title: Overview
+          url: "/sm-hardware/overview-hardware.html"
+        - title: Concepts
+          entries:
+            - title: Hardware page
+              url: "/sm-hardware/hardware-page-overview.html"
+            - title: Terms
+              url: "/sm-hardware/hardware-terminology.html"
+        - title: Manage shelf components
+          entries:
+            - title: View hardware components
+              url: "/sm-hardware/view-hardware-components.html"
+            - title: Show or hide component status
+              url: "/sm-hardware/show-or-hide-component-status.html"
+            - title: Switch between front and back views
+              url: "/sm-hardware/switch-between-front-and-back-views.html"
+            - title: Change view order of shelves
+              url: "/sm-hardware/change-view-order-of-shelves.html"
+            - title: Turn on shelf locator light
+              url: "/sm-hardware/turn-on-shelf-locator-light.html"
+            - title: Change shelf IDs
+              url: "/sm-hardware/change-shelf-ids.html"
+            - title: View shelf component status and settings
+              url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+            - title: Update battery learn cycles
+              url: "/sm-hardware/update-battery-learn-cycles.html"
+        - title: Manage controllers
+          entries:
+            - title: Controller states
+              url: "/sm-hardware/controller-states.html"
+            - title: Considerations for assigning IP addresses
+              url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+            - title: Configure management port
+              url: "/sm-hardware/configure-management-ports.html"
+            - title: Configure NTP server addresses
+              url: "/sm-hardware/configure-ntp-server-addresses.html"
+            - title: Configure DNS server addresses
+              url: "/sm-hardware/configure-dns-server-addresses.html"
+            - title: View controller settings
+              url: "/sm-hardware/view-controller-settings.html"
+            - title: Configure remote login (SSH)
+              url: "/sm-hardware/allow-remote-login.html"
+            - title: Place controller online
+              url: "/sm-hardware/place-controller-online.html"
+            - title: Place controller offline
+              url: "/sm-hardware/place-controller-offline.html"
+            - title: Place controller in service mode
+              url: "/sm-hardware/place-controller-in-service-mode.html"
+            - title: Reset (reboot) controller
+              url: "/sm-hardware/reset-reboot-controller.html"
+        - title: Manage iSCSI ports
+          entries:
+            - title: Configure iSCSI ports
+              url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+            - title: Configure iSCSI authentication
+              url: "/sm-settings/configure-iscsi-authentication.html"
+            - title: Enable iSCSI discovery settings
+              url: "/sm-settings/enable-iscsi-discovery-settings.html"
+            - title: View iSCSI statistics packages
+              url: "/sm-support/view-iscsi-statistics-packages-support.html"
+            - title: View iSCSI sessions
+              url: "/sm-settings/view-iscsi-sessions-system.html"
+            - title: End iSCSI session
+              url: "/sm-settings/end-iscsi-session-system.html"
+            - title: Configure iSER over InfiniBand ports
+              url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+            - title: View iSER over InfiniBand statistics
+              url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+        - title: Manage NVMe ports
+          entries:
+            - title: NVMe overview
+              url: "/sm-settings/nvme-overview.html"
+            - title: Configure NVMe over InfiniBand ports
+              url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+            - title: Configure NVMe over RoCE ports
+              url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+            - title: View NVMe over Fabrics statistics
+              url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+        - title: Manage drives
+          entries:
+            - title: Drive states
+              url: "/sm-hardware/drive-states.html"
+            - title: Solid State Disks (SSDs)
+              url: "/sm-hardware/solid-state-disks-ssds.html"
+            - title: Limit drive view
+              url: "/sm-hardware/limit-the-drive-view.html"
+            - title: Turn on drive locator light
+              url: "/sm-hardware/turn-on-drive-locator-light.html"
+            - title: View drive status and settings
+              url: "/sm-hardware/view-drive-status-and-settings.html"
+            - title: Replace drive logically
+              url: "/sm-hardware/replace-drive-logically-hardware.html"
+            - title: Reconstruct drive manually
+              url: "/sm-hardware/reconstruct-drive-manually.html"
+            - title: Initialize (format) drive
+              url: "/sm-hardware/initialize-format-drive.html"
+            - title: Fail drive
+              url: "/sm-hardware/fail-drive.html"
+            - title: Erase drives
+              url: "/sm-hardware/erase-drive.html"
+            - title: Unlock or reset locked NVMe or FIPS drives
+              url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"        
+        - title: Manage hot spares
+          entries:
+            - title: Hot spare drive overview
+              url: "/sm-hardware/hot-spare-drives.html"
+            - title: Assign hot spares
+              url: "/sm-hardware/assign-hot-spares-hardware.html"
+            - title: Unassign hot spares
+              url: "/sm-hardware/unassign-hot-spares.html"
+        - title: Storage shelf FAQ
+          url: "/sm-hardware/faq-storage-shelf.html"
+        - title: Storage controller FAQ
+          url: "/sm-hardware/faq-storage-controller.html"
+        - title: iSCSI protocol FAQ
+          url: "/sm-settings/faq-iscsi-protocol.html"
+        - title: NVMe protocol FAQ
+          url: "/sm-settings/faq-nvme-protocol.html"
+        - title: Storage drives FAQ
+          url: "/sm-storage/faq-storage-drives.html"
+      - title: Alerts
+        entries:
+        - title: Overview
+          url: "/sm-settings/overview-alerts.html"
+        - title: Concepts
+          entries:
+          - title: How alerts work
+            url: "/sm-settings/how-alerts-work.html"
+          - title: Terms
+            url: "/sm-settings/alerts-terminology.html"
+        - title: Manage email alerts
+          entries:
+          - title: Configure mail server and recipients
+            url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+          - title: Edit email addresses
+            url: "/sm-settings/edit-alert-email-addresses.html"
+          - title: Add email addresses
+            url: "/sm-settings/add-alert-email-addresses.html"
+          - title: Delete mail server or email addresses
+            url: "/sm-settings/delete-alert-email-addresses.html"
+          - title: Edit mail server
+            url: "/sm-settings/edit-mail-server-for-alerts.html"
+        - title: Manage SNMP alerts
+          entries:
+          - title: Configure SNMP alerts
+            url: "/sm-settings/configure-snmp-alerts.html"
+          - title: Add trap destinations
+            url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+          - title: Configure SNMP MIB variables
+            url: "/sm-settings/configure-snmp-mib-variables.html"
+          - title: Edit communities
+            url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+          - title: Edit user settings
+            url: "/sm-settings/edit-user-names-for-snmp-traps.html"
+          - title: Add communities
+            url: "/sm-settings/add-community-names-for-snmp-traps.html"
+          - title: Add users
+            url: "/sm-settings/add-user-names-for-snmp-traps.html"
+          - title: Remove communities
+            url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+          - title: Remove users
+            url: "/sm-settings/remove-user-for-snmp-traps.html"
+          - title: Delete trap destinations
+            url: "/sm-settings/delete-trap-destinations.html"
+        - title: Manage syslog alerts
+          entries:
+          - title: Configure syslog server
+            url: "/sm-settings/configure-syslog-server-for-alerts.html"
+          - title: Edit syslog servers
+            url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+          - title: Add syslog servers
+            url: "/sm-settings/add-syslog-servers-for-alerts.html"
+          - title: Delete syslog servers
+            url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+        - title: Storage system alerts FAQ
+          url: "/sm-settings/faq-storage-system-alerts.html"
+      - title: Array settings
+        entries:
+          - title: Settings overview
+            url: "/sm-settings/overview-settings.html"
+          - title: Concepts
+            entries:
+            - title: Cache settings and performance
+              url: "/sm-settings/cache-settings-and-performance.html"
+            - title: Automatic load balancing overview
+              url: "/sm-settings/automatic-load-balancing-overview.html"
+          - title: Configure array settings
+            entries:
+            - title: Edit storage array name
+              url: "/sm-settings/edit-storage-array-name.html"
+            - title: Turn on storage array locator lights
+              url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+            - title: Synchronize storage array clocks
+              url: "/sm-settings/synchronize-storage-array-clocks.html"
+            - title: Save storage array configuration
+              url: "/sm-settings/save-storage-array-configuration.html"
+            - title: Clear storage array configuration
+              url: "/sm-settings/clear-storage-array-configuration.html"
+            - title: Change cache settings
+              url: "/sm-settings/change-cache-settings-for-storage-array.html"
+            - title: Set automatic load balancing
+              url: "/sm-settings/set-automatic-load-balancing.html"
+            - title: Enable or disable legacy management interface
+              url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+          - title: Configure add-on features
+            entries:
+            - title: How add-on features work
+              url: "/sm-settings/how-add-on-features-work.html"
+            - title: Add-on terms
+              url: "/sm-settings/add-on-feature-terminology.html"
+            - title: Obtain feature key file
+              url: "/sm-settings/obtain-a-feature-key-file.html"
+            - title: Enable premium feature
+              url: "/sm-settings/enable-premium-feature.html"
+            - title: Enable feature pack
+              url: "/sm-settings/enable-feature-pack.html"
+          - title: Download CLI
+            url: "/sm-settings/download-cli.html"
+          - title: Storage array settings FAQ
+            url: "/sm-storage/faq-storage-array-settings.html"
+      - title: Drive security
+        entries:
+        - title: Overview
+          url: "/sm-settings/overview-drive-security.html"
+        - title: Concepts
+          entries:
+          - title: How Drive Security feature works
+            url: "/sm-settings/how-the-drive-security-feature-works.html"
+          - title: How security key management works
+            url: "/sm-settings/how-security-key-management-works.html"
+          - title: Terms
+            url: "/sm-settings/drive-security-terminology.html"
+        - title: Configure security keys
+          entries:
+          - title: Create internal security key
+            url: "/sm-settings/create-internal-security-key.html"
+          - title: Create external security key
+            url: "/sm-settings/create-external-security-key.html"
+        - title: Manage security keys
+          entries:
+          - title: Change security key
+            url: "/sm-settings/change-security-key.html"
+          - title: Switch from external to internal key management
+            url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+          - title: Edit key management server settings
+            url: "/sm-settings/edit-key-management-server-settings.html"
+          - title: Back up security key
+            url: "/sm-settings/back-up-security-key.html"
+          - title: Validate security key
+            url: "/sm-settings/validate-security-key.html"
+          - title: Unlock drives when using internal key management
+            url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+          - title: Unlock drives when using external key management
+            url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
+        - title: Storage drive security FAQ
+          url: "/sm-settings/faq-storage-drive-security.html"
+      - title: Access management
+        entries:
+        - title: Overview
+          url: "/sm-settings/overview-access-management.html"
+        - title: Concepts
+          entries:
+          - title: How Access Management works
+            url: "/sm-settings/how-access-management-works.html"
+          - title: Terms
+            url: "/sm-settings/access-management-terminology.html"
+          - title: Permissions for mapped roles
+            url: "/sm-settings/permissions-for-mapped-roles.html"
+          - title: Local user roles
+            url: "/sm-settings/access-management-with-local-user-roles.html"
+          - title: Directory services
+            url: "/sm-settings/access-management-with-directory-services.html"
+          - title: SAML
+            url: "/sm-settings/access-management-with-saml.html"
+          - title: Access tokens
+            url: "/sm-settings/access-management-tokens.html"
+        - title: Use local user roles
+          entries:
+          - title: View local user roles
+            url: "/sm-settings/view-local-user-roles.html"
+          - title: Change passwords
+            url: "/sm-settings/change-passwords.html"
+          - title: Change local user password settings
+            url: "/sm-settings/change-local-user-passwords-settings.html"
+        - title: Use directory services
+          entries:
+          - title: Add directory server
+            url: "/sm-settings/add-directory-server.html"
+          - title: Edit directory server settings and role mappings
+            url: "/sm-settings/edit-directory-server-settings.html"
+          - title: Remove directory server
+            url: "/sm-settings/remove-directory-server.html"
+        - title: Use SAML
+          entries:
+            - title: Configure SAML
+              url: "/sm-settings/configure-saml.html"
+            - title: Change SAML role mappings
+              url: "/sm-settings/change-saml-role-mappings.html"
+            - title: Export SAML Service Provider files
+              url: "/sm-settings/export-saml-service-provider-files.html"
+        - title: Use access tokens
+          entries:
+            - title: Create access tokens
+              url: "/sm-settings/access-management-tokens-create.html"
+            - title: Edit access token settings
+              url: "/sm-settings/access-management-tokens-edit.html"
+            - title: Revoke access tokens
+              url: "/sm-settings/access-management-tokens-revoke.html"
+        - title: Manage syslog
+          entries:
+          - title: View audit log activity
+            url: "/sm-settings/view-audit-log-activity.html"
+          - title: Define audit log policies
+            url: "/sm-settings/define-log-policies.html"
+          - title: Delete events from the audit log
+            url: "/sm-settings/delete-events-from-the-audit-log.html"
+          - title: Configure syslog server for audit logs
+            url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+          - title: Edit syslog server settings for audit log records
+            url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+        - title: User access management FAQ
+          url: "/sm-settings/faq-user-access-mgmt-sm.html"
+      - title: Certificates
+        entries:
+        - title: Overview
+          url: "/sm-settings/overview-certificates.html"
+        - title: Concepts
+          entries:
+          - title: How certificates work
+            url: "/sm-settings/how-certificates-work-sam.html"
+          - title: Terms
+            url: "/sm-settings/certificate-terminology.html"
+        - title: Use certificates
+          entries:
+          - title: Use CA-signed certificates for controllers
+            url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+          - title: Reset management certificates
+            url: "/sm-settings/reset-management-certificates.html"
+          - title: View imported certificate info
+            url: "/sm-settings/view-imported-certificates.html"
+          - title: Import certificates for controllers when acting as clients
+            url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+          - title: Enable certificate revocation checking
+            url: "/sm-settings/enable-certificate-revocation-checking.html"
+          - title: Delete trusted certificates
+            url: "/sm-settings/delete-trusted-certificates.html"
+          - title: Use CA-signed certificates for authentication
+              server
+            url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+          - title: Export key management server certificates
+            url: "/sm-settings/export-key-management-certificates.html"
+        - title: Certificates FAQ
+          url: "/sm-settings/faq-certificates.html"
+      - title: Support
+        entries:
+        - title: Overview
+          url: "/sm-support/overview-support.html"
+        - title: View information and diagnostics
+          entries:
+            - title: View storage array profile
+              url: "/sm-support/view-storage-array-profile.html"
+            - title: View software and firmware inventory
+              url: "/sm-support/view-software-and-firmware-inventory.html"
+        - title: Collect diagnostic data
+          entries:
+            - title: Collect support data manually
+              url: "/sm-support/collect-support-data-manually.html"
+            - title: Collect configuration data
+              url: "/sm-support/collect-configuration-data.html"
+            - title: Retrieve recovery support files
+              url: "/sm-support/retrieve-recovery-support-files.html"
+            - title: Retrieve trace buffers
+              url: "/sm-support/retrieve-trace-buffers.html"
+            - title: Collect I/O path statistics
+              url: "/sm-support/collect-i-o-path-statistics.html"
+            - title: Retrieve health image
+              url: "/sm-support/retrieve-health-image.html"
+        - title: Take recovery actions
+          entries:
+            - title: View unreadable sectors log
+              url: "/sm-support/view-unreadable-sectors-log.html"
+            - title: Re-enable drive ports
+              url: "/sm-support/re-enable-drive-ports.html"
+            - title: Clear recovery mode
+              url: "/sm-support/clear-recovery-mode.html"
+        - title: Manage AutoSupport
+          entries:
+            - title: AutoSupport feature overview
+              url: "/sm-support/autosupport-feature-overview.html"
+            - title: Workflow for the AutoSupport feature
+              url: "/sm-support/workflow-for-autosupport.html"
+            - title: Enable or disable AutoSupport features
+              url: "/sm-support/enable-or-disable-autosupport-features.html"
+            - title: Configure AutoSupport delivery method
+              url: "/sm-support/configure-autosupport-delivery-method.html"
+            - title: Schedule AutoSupport dispatches
+              url: "/sm-support/schedule-autosupport-dispatches.html"
+            - title: Send AutoSupport dispatches
+              url: "/sm-support/send-autosupport-dispatches.html"
+            - title: View AutoSupport status
+              url: "/sm-support/view-autosupport-status.html"
+            - title: View AutoSupport log
+              url: "/sm-support/view-autosupport-log.html"
+            - title: Enable AutoSupport maintenance window
+              url: "/sm-support/enable-autosupport-maintenance-window.html"
+            - title: Disable AutoSupport maintenance window
+              url: "/sm-support/disable-autosupport-maintenance-window.html"
+        - title: View events
+          entries:
+            - title: Event log overview
+              url: "/sm-support/overview-event-log.html"
+            - title: View event log
+              url: "/sm-support/view-events-using-the-event-log.html"
+        - title: Manage upgrades
+          entries:
+          - title: Overview
+            url: "/sm-support/overview-upgrade-center.html"
+          - title: Upgrade software and firmware
+            url: "/sm-support/upgrade-controller-software-and-firmware.html"
+          - title: Activate controller software and firmware
+            url: "/sm-support/activate-controller-software-and-firmware.html"
+          - title: Upgrade drive firmware
+            url: "/sm-support/upgrade-drive-firmware.html"
+          - title: Review the possible software and firmware upgrade errors
+            url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+        - title: AutoSupport FAQ
+          url: "/sm-support/faq-autosupport.html"
+  - title: SANtricity Unified Manager
+    url: "/unified-manager/index.html"
+    entries:
+    - title: Main interface
+      entries:
+        - title: SANtricity Unified Manager interface overview
+          url: "/um-admin/overview-interface-unified.html"
+        - title: Supported browsers
+          url: "/um-admin/supported-browsers-unified.html"
+        - title: Set admin password protection
+          url: "/um-admin/administrator-password-protection-unified.html"
+        - title: Change the admin password
+          url: "/um-admin/change-admin-password-unified.html"
+        - title: Manage session timeouts
+          url: "/um-admin/manage-session-timeouts-unified.html"
+    - title: Storage arrays
+      entries:
+      - title: Overview
+        url: "/um-manage/overview-storage-arrays.html"
+      - title: Concepts
+        entries:
+        - title: Considerations for discovering arrays
+          url: "/um-manage/considerations-for-discovering-arrays.html"
+        - title: Considerations for accessing SANtricity System Manager
+          url: "/um-manage/launch-considerations.html"
+      - title: Discover arrays
+        entries:
+        - title: Discover multiple storage arrays
+          url: "/um-manage/discover-multiple-arrays.html"
+        - title: Discover single array
+          url: "/um-manage/discover-single-array.html"
+      - title: Manage arrays
+        entries:
+          - title: View array status
+            url: "/um-manage/storage-array-status.html"
+          - title: Manage an individual storage array
+            url: "/um-manage/launch-system-manager.html"
+          - title: Change array passwords
+            url: "/um-admin/change-storage-array-passwords.html"
+          - title: Remove arrays from view
+            url: "/um-manage/remove-storage-array.html"
+    - title: Settings import
+      entries:
+      - title: Overview
+        url: "/um-manage/overview-import-settings.html"
+      - title: Concepts
+        entries:
+        - title: How Import Settings works
+          url: "/um-manage/how-import-settings-works.html"
+        - title: Requirements for replicating storage configurations
+          url: "/um-manage/requirements-for-replicating-storage-configurations.html"
+      - title: Use batch imports
+        entries:
+        - title: Import alert settings
+          url: "/um-manage/import-alert-settings.html"
+        - title: Import AutoSupport settings
+          url: "/um-manage/import-autosupport-settings.html"
+        - title: Import directory services settings
+          url: "/um-manage/import-directory-services-settings.html"
+        - title: Import system settings
+          url: "/um-manage/import-system-settings.html"
+        - title: Import storage configuration settings
+          url: "/um-manage/import-storage-configuration-settings.html"
+      - title: Import settings FAQ
+        url: "/um-manage/faq-import-settings.html"
+    - title: Array groups
+      entries:
+      - title: Overview
+        url: "/um-manage/overview-manage-groups.html"
+      - title: Configure groups
+        url: "/um-manage/create-storage-array-group.html"
+      - title: Remove arrays from group
+        url: "/um-manage/remove-storage-arrays-from-group.html"
+      - title: Delete group
+        url: "/um-manage/delete-storage-array-group.html"
+      - title: Rename group
+        url: "/um-manage/rename-storage-array-group.html"
+    - title: Upgrades
+      entries:
+      - title: Overview
+        url: "/um-manage/overview-upgrade-center-um.html"
+      - title: Upgrade software and firmware
+        entries:
+        - title: Perform pre-upgrade health check
+          url: "/um-manage/perform-pre-upgrade-health-check.html"
+        - title: Upgrade SANtricity OS
+          url: "/um-manage/upgrade-controller-firmware.html"
+        - title: Activate staged OS software
+          url: "/um-manage/activate-pending-firmware.html"
+        - title: Manage software repository
+          url: "/um-manage/manage-repository.html"
+        - title: Clear staged OS software
+          url: "/um-manage/clear-staged-os-software.html"
+    - title: Mirroring
+      entries:
+      - title: Overview
+        url: "/um-manage/overview-mirroring-um.html"
+      - title: Concepts
+        entries:
+        - title: How mirroring works
+          url: "/um-manage/mirroring-overview.html"
+        - title: Configuration workflow
+          url: "/um-manage/mirroring-configuration-workflow.html"
+        - title: Terms
+          url: "/um-manage/mirroring-terminology.html"
+        - title: Requirements
+          url: "/um-manage/requirements-for-using-mirroring.html"
+      - title: Configure mirroring
+        entries:
+        - title: Create asynchronous mirrored pair
+          url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
+        - title: Create synchronous mirrored pair
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
+      - title: Storage mirroring FAQ
+        url: "/um-manage/faq-storage-mirroring.html"
+    - title: Certificates
+      entries:
+      - title: Overview
+        url: "/um-certificates/overview-certificates-um.html"
+      - title: Concepts
+        entries:
+        - title: How certificates work
+          url: "/um-certificates/how-certificates-work-unified.html"
+        - title: Terms
+          url: "/um-certificates/certificate-terminology-unified.html"
+      - title: Use management host certificates
+        url: "/um-certificates/use-ca-signed-certificate-um.html"
+      - title: Reset management certificates
+        url: "/um-certificates/reset-management-certificates-unified.html"
+      - title: Use array certificates
+        entries:
+        - title: Import certificates for arrays
+          url: "/um-certificates/import-array-certificates-unified.html"
+        - title: Delete trusted certificates
+          url: "/um-certificates/delete-trusted-certificates-unified.html"
+        - title: Resolve untrusted certificates
+          url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+      - title: Manage certificates
+        entries:
+        - title: View certificates
+          url: "/um-certificates/view-certificates-unified.html"
+        - title: Export certificates
+          url: "/um-certificates/export-certificates-unified.html"
+    - title: Access management
+      entries:
+      - title: Overview
+        url: "/um-certificates/overview-access-management-um.html"
+      - title: Concepts
+        entries:
+        - title: How Access Management works
+          url: "/um-certificates/how-access-management-works-unified.html"
+        - title: Terms
+          url: "/um-certificates/access-management-terminology-unified.html"
+        - title: Permissions for mapped roles
+          url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+        - title: Local user roles
+          url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+        - title: Directory services
+          url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: /um-certificates/access-management-with-saml.html
+      - title: Use local user roles
+        entries:
+        - title: View local user roles
+          url: "/um-certificates/view-local-user-roles-unified.html"
+        - title: Change passwords
+          url: "/um-certificates/change-passwords-unified.html"
+        - title: Change local user password settings
+          url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+      - title: Use directory services
+        entries:
+          - title: Add directory server
+            url: "/um-certificates/add-directory-server-unified.html"
+          - title: Edit directory server settings and role mappings
+            url: "/um-certificates/edit-directory-server-settings-unified.html"
+          - title: Remove directory server
+            url: "/um-certificates/remove-directory-server-unified.html"
+      - title: Use SAML
+        entries:
+          - title: Configure SAML
+            url: "/um-certificates/configure-saml.html"
+          - title: Change SAML role mappings
+            url: "/um-certificates/change-saml-role-mappings.html"
+          - title: Export SAML Service Provider files
+            url: "/um-certificates/export-saml-service-provider-files.html"
+      - title: User access management FAQ
+        url: "/um-certificates/faq-user-access-mgmt-um.html"
+  - title: Earlier versions
+    url: /early-versions.html
   - title: Legal notices
     url: /legal-notices.html
+product-family:
+  name: E-Series
+  repo: e-series-family
