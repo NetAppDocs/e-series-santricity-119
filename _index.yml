@@ -39,7 +39,7 @@ indexpage:
      - title: For the SEs
        links:
          - title: E-Series/EF-Series technical training (login required)
-           url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
+           url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
          - title: EF300 overview and technical details (login required)
            url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
          - title: NetApp Fusion (login required)
